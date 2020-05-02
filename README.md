@@ -1,1 +1,3 @@
-# AFrame_test
+# AFrame test
+
+In this repository I test the AFrame WebVR framework
