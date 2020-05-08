@@ -37,6 +37,7 @@ https://www.youtube.com/watch?v=A4PInDvyOFw&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cm
 
 ## 04Animations
 Make animations in AFrame and in JS
+_Animation doesn't work like the video anymore_
 * Adding an animation in AFrame
 * Adding an animation in JS with setInterval()
 
