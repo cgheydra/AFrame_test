@@ -10,17 +10,17 @@ put shapes on the scene
 * transform with position, scale and rotation
 * position box in view at load
 * add other primative shapes
-	* <a-circle>
-	* <a-cone>
-	* <a-cylinder>
-	* <a-dodecahedron>
-	* <a-octahedron>
-	* <a-plane>
-	* <a-ring>
-	* <a-sphere>
-	* <a-tetrahedron>
-	* <a-torus-knot>
-	* <a-triangle>
+	* `<a-circle>`
+	* `<a-cone>`
+	* `<a-cylinder>`
+	* `<a-dodecahedron>`
+	* `<a-octahedron>`
+	* `<a-plane>`
+	* `<a-ring>`
+	* `<a-sphere>`
+	* `<a-tetrahedron>`
+	* `<a-torus-knot>`
+	* `<a-triangle>`
 
 https://www.youtube.com/watch?v=wXQQVMQO8y4&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cmBTr&index=2
 https://www.youtube.com/watch?v=AjSaTiGs0Js&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cmBTr&index=3
@@ -40,11 +40,15 @@ Make animations in AFrame and in JS
 * Adding an animation in AFrame
 * Adding an animation in JS with setInterval()
 
+https://www.youtube.com/watch?v=U_y6Qeimnr8&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cmBTr&index=5
+
 ## 05Interaction
 Interact with objects
 * Start animation on click
 * Add camera and cursor
 * Use JS for interaction
+
+https://www.youtube.com/watch?v=yM89f0GLzB0&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cmBTr&index=6
 
 ## 06Lighting
 Add lights to the scene
