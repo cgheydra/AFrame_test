@@ -1,6 +1,6 @@
 
 var rotationSpeed = 0.001;
-var growspeed = 1.01;
+var growspeed = 1.2;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
@@ -12,9 +12,9 @@ function spin(){
 setInterval(spin, 10);
 
 function grow(){
-	myOtherBox.object3D.scale.x += growspeed;
-	myOtherBox.object3D.scale.y += growspeed;
-	myOtherBox.object3D.scale.z += growspeed;
+	myOtherBox.object3D.scale.x *= growspeed;
+	myOtherBox.object3D.scale.y *= growspeed;
+	myOtherBox.object3D.scale.z *= growspeed;
 	//console.log(myOtherBox.object3D.scale);
 }
 
