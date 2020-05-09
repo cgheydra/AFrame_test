@@ -62,6 +62,10 @@ Add lights to the scene
 * Add a spotlight
 * add a pointlight
 
+
+
+
+# Future additions
 ## ??skybox
 Make a skybox
 * make skybox
