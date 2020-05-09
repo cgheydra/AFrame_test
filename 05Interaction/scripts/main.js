@@ -9,6 +9,14 @@ function spin(){
 	//console.log(myOtherBox.object3D.rotation);
 }
 
-
-
 setInterval(spin, 10);
+
+
+
+myOtherBox.addEventListener('mouseenter', function(){
+	rotationSpeed = 0.01;
+});
+
+myOtherBox.addEventListener('mouseleave', function(){
+	rotationSpeed = 0.001;
+});
