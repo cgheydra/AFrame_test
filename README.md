@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=U_y6Qeimnr8&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cm
 
 ## 05Interaction
 Interact with objects
-* Start animation on click
+* Start animation on mouseEnter
 * Add camera and cursor
 * Use JS for interaction
 
@@ -72,3 +72,11 @@ Make a skybox
 model
 https://free3d.com/nl/3d-model/alokaziya-377519.html
 https://free3d.com/nl/3d-model/cat-v1--522281.html
+
+textures
+https://unsplash.com/photos/J2gEgTPM_OA
+https://unsplash.com/photos/wG923J9naFQ
+https://www.all3dfree.net/grass-textures.html
+
+Other Tutorial
+https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
