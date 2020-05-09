@@ -46,10 +46,15 @@ https://www.youtube.com/watch?v=U_y6Qeimnr8&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cm
 ## 05Interaction
 Interact with objects
 * Start animation on mouseEnter
-* Add camera and cursor
+* Add cursor
 * Use JS for interaction
 
 https://www.youtube.com/watch?v=yM89f0GLzB0&list=PLRtjMdoYXLf4inSULAHyCMqpIUj4cmBTr&index=6
+
+## 06InteractionHeadset
+Interact with objects by looking
+* Add camera
+* Use timing function
 
 ## 06Lighting
 Add lights to the scene
