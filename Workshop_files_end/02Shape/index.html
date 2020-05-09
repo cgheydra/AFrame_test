@@ -10,7 +10,7 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        position="0 2 -4" 
+        position="0 2 -6" 
         rotation="0 30 30" 
         width="1"
         height="2"
@@ -19,14 +19,23 @@
         shadow>
       </a-box>
       <a-cone id="myCone"
-        position="3 2 -4"
+        position="3 2 -6"
         rotation="0 -30 -30"
         height="3"
         radius-bottom="1" 
-        radius-top="0.5"
+        radius-top="0.2"
         color="#33BB44"
         shadow>  
       </a-cone>
+      <a-torus-knot id="myThing"
+        position="0 0 -3"
+        color="#B84A39" 
+        arc="180" 
+        p="2" 
+        q="7" 
+        radius="5" 
+        radius-tubular="0.1">
+      </a-torus-knot>
       <a-plane id="ground"
         position="0 0 -4" 
         rotation="-90 0 0" 
