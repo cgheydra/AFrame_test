@@ -1,6 +1,6 @@
 
 var rotationSpeed = 0.001;
-var growspeed = 2;
+var growspeed = 1.5;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
