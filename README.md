@@ -18,6 +18,7 @@ put shapes on the scene
 	* `<a-plane>`
 	* `<a-ring>`
 	* `<a-sphere>`
+	* `<a-text>`
 	* `<a-tetrahedron>`
 	* `<a-torus-knot>`
 	* `<a-triangle>`
