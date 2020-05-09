@@ -1,6 +1,6 @@
 
 var rotationSpeed = 0.001;
-var growspeed = 1.1;
+var growspeed = 1.01;
 var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
@@ -29,6 +29,7 @@ myOtherBox.addEventListener('mouseleave', function(){
 	console.log('left');
 });
 
+//clickevent uses the fuse om mobile
 myOtherBox.addEventListener('click', function(){
 	grow();
 	console.log('grew');
