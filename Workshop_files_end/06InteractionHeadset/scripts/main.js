@@ -51,7 +51,7 @@ var cursorRing = document.getElementById('cursorRing');
 console.log(cursorRing);
 
 function cursorHover(){
-	cursorRing.
+
 }
 
 
