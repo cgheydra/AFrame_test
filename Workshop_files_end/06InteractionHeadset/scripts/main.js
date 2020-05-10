@@ -1,6 +1,8 @@
 
 var rotationSpeed = 0.001;
 var myOtherBox = document.getElementById('myOtherBox');
+var cursorRing = document.getElementById('cursorRing');
+
 
 function spin(){
 	myOtherBox.object3D.rotation.x += rotationSpeed;
@@ -41,21 +43,13 @@ function grow(){
 
 myOtherBox.addEventListener('click', function(){ // uses a fuse
 	grow();
+	cursorRing.setAttribute("material","color", "red");
 	console.log('grew');
 });
 
 
-
-var cursorRing = document.getElementById('cursorRing');
-
-console.log(cursorRing);
-
-function cursorHover(){
+myOtherBox.addEventListener('fusing', function(){ // event triggered when fuse starts
 	cursorRing.setAttribute("material","color", "white");
-}
-
-myOtherBox.addEventListener('fusing', function(){ // uses a fuse
-	cursorHover();
 	console.log('fusing');
 });
 
