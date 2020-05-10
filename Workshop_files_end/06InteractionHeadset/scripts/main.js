@@ -51,8 +51,12 @@ var cursorRing = document.getElementById('cursorRing');
 console.log(cursorRing);
 
 function cursorHover(){
-
+	cursorRing.setAttribute("material","color", "white");
 }
 
+myOtherBox.addEventListener('fusing', function(){ // uses a fuse
+	cursorHover();
+	console.log('fusing');
+});
 
 
