@@ -15,6 +15,7 @@ setInterval(spin, 10);
 
 myOtherBox.addEventListener('mouseenter', function(){
 	rotationSpeed = 0.01;
+	cursorRing.setAttribute("material","color", "white");
 	console.log('entered');
 });
 
@@ -47,11 +48,4 @@ myOtherBox.addEventListener('click', function(){ // uses a fuse
 	cursorRing.setAttribute("material","color", "red");
 	console.log('grew');
 });
-
-
-myOtherBox.addEventListener('fusing', function(){ // event triggered when fuse starts
-	cursorRing.setAttribute("material","color", "white");
-	console.log('fusing');
-});
-
 
