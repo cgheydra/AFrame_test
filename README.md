@@ -57,36 +57,39 @@ Interact with objects by looking
 * Add camera
 * Use timing function
 
-## 06Lighting
-Add lights to the scene
-* Add a ground plane
-* Add a spotlight
-* add a pointlight
+
 
 
 
 
 # Future additions
+## ??Lighting
+Add lights to the scene
+* Add a ground plane
+* Add a spotlight
+* add a pointlight
+
 ## ??skybox
 Make a skybox
 * make skybox
 * find and apply a skybox image
 
+## Importing obj-models
 
 
 
 
 
 
-
-model
+# resources
+## models
 https://free3d.com/nl/3d-model/alokaziya-377519.html
 https://free3d.com/nl/3d-model/cat-v1--522281.html
 
-textures
+## textures
 https://unsplash.com/photos/J2gEgTPM_OA
 https://unsplash.com/photos/wG923J9naFQ
 https://www.all3dfree.net/grass-textures.html
 
-Other Tutorial
+## Other Tutorial
 https://www.youtube.com/watch?v=ktjMCanKNLk&list=PL8MkBHej75fJD-HveDzm4xKrciC5VfYuV
