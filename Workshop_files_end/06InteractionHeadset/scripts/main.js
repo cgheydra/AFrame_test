@@ -1,7 +1,7 @@
 
 var rotationSpeed = 0.001;
 var myOtherBox = document.getElementById('myOtherBox');
-var cursorRing = document.getElementById('cursorRing');
+var cursorRing = document.getElementById('cursorOuterRing');
 
 
 function spin(){
@@ -21,7 +21,7 @@ myOtherBox.addEventListener('mouseenter', function(){
 
 myOtherBox.addEventListener('mouseleave', function(){
 	rotationSpeed = 0.001;
-	cursorRing.setAttribute("material","color", "red");
+	cursorRing.setAttribute("material","color", "black");
 	console.log('left');
 });
 
@@ -45,7 +45,7 @@ function grow(){
 
 myOtherBox.addEventListener('click', function(){ // uses a fuse
 	grow();
-	cursorRing.setAttribute("material","color", "red");
+	cursorRing.setAttribute("material","color", "black");
 	console.log('grew');
 });
 
