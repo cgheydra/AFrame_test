@@ -38,8 +38,21 @@ function grow(){
 	//console.log(myOtherBox.object3D.scale);
 }
 
-// uses a fuse
-myOtherBox.addEventListener('click', function(){
+
+myOtherBox.addEventListener('click', function(){ // uses a fuse
 	grow();
 	console.log('grew');
 });
+
+
+
+var cursorRing = document.getElementById('cursorRing');
+
+console.log(cursorRing);
+
+function cursorHover(){
+	cursorRing.
+}
+
+
+
